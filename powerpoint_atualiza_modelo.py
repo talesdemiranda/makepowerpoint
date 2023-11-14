@@ -67,7 +67,7 @@ def show():
          data=my_presentation,
          key="download_presentation",
          #on_click=lambda: st.write(my_presentation),
-         help="Click to download the presentation.",
+         help="Click para baixar a apresentação.",
          file_name="apresentacao.pptx",
       )
 
