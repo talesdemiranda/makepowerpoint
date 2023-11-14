@@ -63,7 +63,7 @@ def show():
       my_presentation = apresentacao_download(prs)
 
       st.download_button(
-         label="Download Presentation",
+         label="Fazer Download da Apresentação",
          data=my_presentation,
          key="download_presentation",
          #on_click=lambda: st.write(my_presentation),
