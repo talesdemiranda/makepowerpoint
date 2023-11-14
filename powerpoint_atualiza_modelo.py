@@ -49,7 +49,7 @@ def show():
     st.title("Tales - Streamlit PowerPoint Presentation")
     nome_cliente = st.text_input("Cliente", placeholder="Digite o nome do cliente")
     #produtos = st.multiselect("Produtos", ["Produto 1", "Produto 2", "Produto 3"])
-    potencia = st.number_input("Potência", min_value=0, step=1, placeholder="Valor Kwp")
+    potencia = st.number_input("Valor Kwp", min_value=0, step=1, value=None, placeholder="Valor Kwp")
 
     # Insert a download button
     if st.button("Gerar apresentação"):
