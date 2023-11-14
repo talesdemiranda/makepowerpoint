@@ -46,7 +46,7 @@ def replace_text(replacements: dict, shapes: list):
 def show():
 
     # Streamlit app
-    st.title("Streamlit PowerPoint Presentation")
+    st.title("Tales - Streamlit PowerPoint Presentation")
     nome_cliente = st.text_input("Cliente", placeholder="Digite o nome do cliente")
     #produtos = st.multiselect("Produtos", ["Produto 1", "Produto 2", "Produto 3"])
     potencia = st.number_input("Potência", min_value=0, value=0, step=1, placeholder="Digite a potência")
